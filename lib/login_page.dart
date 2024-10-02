@@ -70,7 +70,7 @@ class _LoginPageState extends State<LoginPage> {
     return Container(
       padding: const EdgeInsets.all(10),
       child: Text(
-        "BELA NEGARA",
+        "LOGIN",
         style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
       ),
     );
@@ -79,7 +79,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget _logo() {
     return Container(
         padding: const EdgeInsets.all(10),
-        child: Image.asset("images/logo_upn.png"));
+        child: Image.asset("images/menu.png"));
   }
 
   Widget _username() {
